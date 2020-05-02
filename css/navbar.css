@@ -1,0 +1,25 @@
+/* Editando a cor de fundo e os textos do navbar */
+nav , nav a, nav button, nav div{
+    background-color: purple;
+    color: black;
+}
+
+/* A caixa de login */
+.login {
+    color: white;
+    border-color: white;
+    background-color: gray;
+    margin-right: 6px;
+    font-weight: bold;
+    border: 1px solid;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+/* Ao passar o mouse em cima da opção de login */
+.login:hover {
+    color: gray;
+    border-color: gray;
+    background-color: white;
+    text-decoration: none;
+}
