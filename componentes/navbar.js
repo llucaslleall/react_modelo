@@ -1,5 +1,5 @@
 import React from 'react';
-import ParNavbar from '../parametros';
+import { ParNavbar } from '../parametros';
 import '../css/navbar.css';
 
 function Navbar() {
