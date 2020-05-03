@@ -1,3 +1,4 @@
-import Navbar from './navbar';
+import ParNavbar from './navbar';
+import ParLogin from './login';
 
-export default Navbar;
+export { ParNavbar, ParLogin };
