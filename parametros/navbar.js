@@ -11,5 +11,7 @@ export default {
     //link3: '',
  
     login: 'Login',
-    linkLogin: 'paginaLogin',
+    linkLogin: 'login',
+    sair: 'Sair',
+    linkSair: 'login',
 }

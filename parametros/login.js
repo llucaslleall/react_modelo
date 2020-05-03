@@ -11,7 +11,7 @@ export default {
     textoErro: 'Por favor, tente novamente o login',
 
     //Links da página
-    link1: '',
+    link1: '/cadastro',
     textoLink1: 'Quero me cadastrar!',
     link2: '',
     textoLink2: 'Recuperar senha',
