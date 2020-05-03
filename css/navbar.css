@@ -9,11 +9,6 @@ nav , nav a, nav button, nav div{
     color: white;
     border-color: white;
     background-color: gray;
-    margin-right: 6px;
-    font-weight: bold;
-    border: 1px solid;
-    padding: .375rem .75rem;
-    border-radius: .25rem;
 }
 
 /* Ao passar o mouse em cima da opção de login */
@@ -21,5 +16,35 @@ nav , nav a, nav button, nav div{
     color: gray;
     border-color: gray;
     background-color: white;
+}
+
+/* A opção de sair */
+.sair {
+    font-size: 18px;
+    color: black;
+}
+
+/* Ao passar o mouse em cima da opção de sair */
+.sair:hover {
+    color: black;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+/* Essas opções são de estilos mais fixos, não é necessário se preocupar com elas */
+
+.login {
+    margin-right: 6px;
+    font-weight: bold;
+    border: 1px solid;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+.login:hover {
+    text-decoration: none;
+}
+
+.sair:hover {
     text-decoration: none;
 }
