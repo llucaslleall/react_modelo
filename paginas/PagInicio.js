@@ -7,7 +7,7 @@ function PagInicial() {
   return (
       <div>
         { useSelector(state => state.usuarioLogado) === 0 ? <Redirect to='/login' /> : null }
-        <Navbar />
+        <Navbar ativo={useSelector(state => state.usuarioLogado)} />
       </div> 
   );
 }
