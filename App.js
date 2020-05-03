@@ -1,13 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Navbar, Login, Cadastro } from './componentes';
+import { PagLogin, PagCadastro, PagInicio } from './paginas';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { store, persistor } from '../src/store';
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
 
 function App() {
   return (
-    <>
-      <Cadastro />
-    </>
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <Router>
+          <Route exact path="/" component={ PagInicio } />
+          <Route exact path="/login" component={ PagLogin } />
+          <Route exact path="/cadastro" component={ PagCadastro } />
+          </Router>
+      </PersistGate>  
+    </Provider>
   );
 }
 
