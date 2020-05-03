@@ -1,14 +1,23 @@
+/* Informações da página toda */
+body {
+    background-color: gray;
+}
+
+/* Informações do botão de cadastro */
+.btn-cadastro{
+    background-color: white;
+    color: purple;
+}
+
+/* Ação quando passar o mouse por cima do botão */
+.btn-cadastro:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+/* Essas opções são de estilos mais fixos, não é necessário se preocupar com elas */
 .form-login{
     max-width: 650px;
-}
-
-.btn-cadastro{
-    background-color: #614EA6;
-    color: white
-}
-
-
-.btn-cadastro:hover{
-    background-color: #F21667;
-    color: white
 }
