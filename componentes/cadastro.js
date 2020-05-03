@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import { ParCadastro } from '../parametros';
 import '../css/cadastro.css';
-import { Navbar } from './';
 import firebase from '../config/firebase';
 import 'firebase/auth';
 
@@ -50,11 +49,9 @@ function Cadastro(){
 
     return(
     <>    
-        < Navbar />
-
         <div className='form-cadastro'>
             <form className='text-center form-login mx-auto mt-5'>
-                <h1 className='h3 mb-3 text-black font-weight-bold'> {ParCadastro.titulo} </h1>
+                <h1 className='h3 mb-3 text-black font-weight-bold'> { ParCadastro.titulo } </h1>
                 
                 <input onChange={(e) => setEmail(e.target.value) } type='email' className='form-control my-2' placeholder={ ParCadastro.placeholder1 } />
                 <input onChange={(e) => setSenha(e.target.value) } type='password' className='form-control my-2' placeholder={ ParCadastro.placeholder2 } />
