@@ -1,32 +1,34 @@
+@import url("./base.css");
+
 /* Editando a cor de fundo e os textos do navbar */
 nav , nav a, nav button, nav div{
-    background-color: purple;
-    color: black;
+    background-color: var(--principal);
+    color: var(--secundaria);
 }
 
 /* A caixa de login */
 .login {
-    color: white;
-    border-color: white;
-    background-color: gray;
+    color: var(--textoPrincipal);
+    border-color: var(--textoPrincipal);
+    background-color: var(--backgroundBotaoNav);
 }
 
 /* Ao passar o mouse em cima da opção de login */
 .login:hover {
-    color: gray;
-    border-color: gray;
-    background-color: white;
+    color: var(--backgroundBotaoNav);
+    border-color: var(--backgroundBotaoNav);
+    background-color: var(--textoPrincipal);
 }
 
 /* A opção de sair */
 .sair {
     font-size: 18px;
-    color: black;
+    color: var(--secundaria);
 }
 
 /* Ao passar o mouse em cima da opção de sair */
 .sair:hover {
-    color: black;
+    color: var(--secundaria);
 }
 
 

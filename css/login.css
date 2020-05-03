@@ -1,28 +1,28 @@
 /* Cor de background da tela por completo */
 .Login-content{
-    background-color: purple;
+    background-color: var(--principal);
 }
 
 /* Informações do botão de login */
 .btn-login{
-    background-color: white;
-    color: purple;
+    background-color: var(--terciaria);
+    color: var(--principal);
 }
 
 /* Ação quando passar o mouse por cima do botão */
 .btn-login:hover{
-    background-color: black;
-    color: white;
+    background-color: var(--secundaria);
+    color: var(--terciaria);
 }
 
 /* Opções abaixo do botão de login */
 .opcoes-login a{
-    color: white;
+    color: var(--terciaria);
 }
 
 /* Ação ao passar o mouse nas opções acima */
 .opcoes-login a:hover{
-    color: black;
+    color: var(--secundaria);
 }
 
 /* ------------------------------------------------------------------------------ */

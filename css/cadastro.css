@@ -1,18 +1,18 @@
 /* Informações da página toda */
 body {
-    background-color: gray;
+    background-color: var(--background);
 }
 
 /* Informações do botão de cadastro */
 .btn-cadastro{
-    background-color: white;
-    color: purple;
+    background-color: var(--terciaria);
+    color: var(--background);
 }
 
 /* Ação quando passar o mouse por cima do botão */
 .btn-cadastro:hover{
-    background-color: black;
-    color: white;
+    background-color: var(--secundaria);
+    color: var(--terciaria);
 }
 
 
