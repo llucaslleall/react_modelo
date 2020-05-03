@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Navbar, Login} from './componentes';
+import { Navbar, Login, Cadastro } from './componentes';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Login />
+      <Cadastro />
     </>
   );
 }
